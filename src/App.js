@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-
+import ProductContainer from './components/ProductContainer/ProductContainer';
+import Product from './components/Product/Product';
+import ProductsData from './Productos.json';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ProductContainer>
+        {ProductsData.map(product =>
+          <Product 
+          key = {product.nombre}
+          nombre = {product.nombre}
+          oldPrice = {product.price}
+          discount = {product.discount}
+          newPrice = {product.price - product.price * product.discount /100}
+          img = {product.url}
+          />
+        )}
+        
+      </ProductContainer>
     </div>
   );
 }

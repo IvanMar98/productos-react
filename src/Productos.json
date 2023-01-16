@@ -1,0 +1,38 @@
+[
+    {
+        "nombre": "Camisa Coach Negra",
+        "price": 400,
+        "discount": 10,
+        "url": "https://picsum.photos/180"
+    },
+    {
+        "nombre": "Camisa Coach Azul",
+        "price": 500,
+        "discount": 10,
+        "url": "https://picsum.photos/180"
+    },
+    {
+        "nombre": "Camisa Coach Blanca",
+        "price": 450,
+        "discount": 16,
+        "url": "https://picsum.photos/180"
+    },
+    {
+        "nombre": "Camisa Coach Dinosaurio",
+        "price": 500,
+        "discount": 10,
+        "url": "https://picsum.photos/180"
+    },
+    {
+        "nombre": "Camisa Coach Roja",
+        "price": 350,
+        "discount": 20,
+        "url": "https://picsum.photos/180"
+    },
+    {
+        "nombre": "Camisa Coach Verde",
+        "price": 400,
+        "discount": 20,
+        "url": "https://picsum.photos/180"
+    }
+]
